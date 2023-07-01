@@ -1,12 +1,13 @@
 #menu {
-	color: #FFF;
+	margin-left: 5rem;
+	color: rgb(155, 21, 21);
 	height: 45px;
-    width: 15%;
+    width: 22%;
 	padding-left: 1px;
-	margin-top: 1.5rem;
+	margin-top: 4rem;
 }
 #menu ul, #menu li {
-	margin: 0 auto;
+	margin: 0 auto 0 2px;
 	padding: 0;
 }
 #menu ul {
@@ -23,7 +24,7 @@
 	padding: 0 11px;
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 15px;
+	font-size: 25px;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
@@ -88,6 +89,7 @@
 	#menu input:checked + label {color:white}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+	#menu{margin-left: 0;}
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}
@@ -102,6 +104,8 @@
 
     #menu{
         margin-left: 0.5rem;
+        margin-top: 1.5rem;
+        width: 50px;
     }
 
     #menu ul {

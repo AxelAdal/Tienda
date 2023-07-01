@@ -1,6 +1,6 @@
 .input {
     width: 25%;
-    height: 50%;
+    height: 1rem;
     border: none;
     outline: none;
     font-size: 2rem;
@@ -8,7 +8,8 @@
     padding: 2rem;
     box-sizing: border-box;
     background-color: #ccc;
-    margin-top: 2rem;
+    margin-top: 4.5rem;
+    margin-left: 4rem;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
     transition: 300ms ease-in-out;
   }
@@ -22,6 +23,6 @@
 
 @media only screen and (max-width: 800px){
     .input{
-        display: none;
+       display: none;
     }
 }
