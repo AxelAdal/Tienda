@@ -10,7 +10,7 @@
     flex-direction: row;
 }
 .titulo{
-        font-size: 10rem;
+        font-size: 5rem;
         color: #ff3c00;
         padding: 20px;
         box-sizing: border-box;
@@ -19,11 +19,8 @@
         font-family: 'Press Start 2P', cursive;
 }
 .pato{
-    width: 30%;
+    width: 10%;
     height: auto;
-
-    padding: 10px;
-    box-sizing: border-box;
 }
 @media only screen and (max-width: 1280px){
     .titulo{
@@ -36,15 +33,22 @@
 }
 
 @media only screen and (max-width: 800px){
-     .titulo{
-        margin-top: 1rem;
-        font-size: 2rem;
-        margin-left: 1.5rem;
+    #header{
+        padding: 5px;
     }
+    
+    .titulo{
+        font-size: 2rem;
+        margin: 25px 1px 1px 25px;
+         /*arriba derecha abajo izquierda*/
+        padding: 0;
+    }
+
+    .titulo{animation:vibrate 1.5s linear both} @keyframes vibrate{0%{transform:translate(0)}20%{transform:translate(-2px,2px)}40%{transform:translate(-2px,-2px)}60%{transform:translate(2px,2px)}80%{transform:translate(2px,-2px)}100%{transform:translate(0)}}
 
     .pato{
         margin-top: 0.5rem;
         width: 6rem;
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
 }
