@@ -1,0 +1,50 @@
+#header{
+    width: auto;
+    height: auto;
+}
+.cabeza{
+    width: 100%;
+    background-color: blueviolet;
+
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+        font-size: 10rem;
+        color: #ff3c00;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 4rem;
+        font-family: 'Press Start 2P', cursive;
+}
+.pato{
+    width: 30%;
+    height: auto;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1280px){
+    .titulo{
+        font-size: 8rem;
+        margin-top: 4rem;
+    }
+  img{
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 800px){
+     .titulo{
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .pato{
+        margin-top: 0.5rem;
+        width: 6rem;
+        margin-left: 1rem;
+    }
+}
