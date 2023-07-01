@@ -12,14 +12,11 @@
 .titulo{
         font-size: 5rem;
         color: #ff3c00;
-        padding: 20px;
-        box-sizing: border-box;
-        text-align: center;
         margin-top: 4rem;
         font-family: 'Press Start 2P', cursive;
 }
 .pato{
-    width: 10%;
+    width: 8%;
     height: auto;
 }
 @media only screen and (max-width: 1280px){
