@@ -148,4 +148,4 @@ const contenedorProductos = document.getElementById('cajasDC');
         contenedorModal.addEventListener('click', () => {
             contenedorModal.remove();
         });
-    }
+}

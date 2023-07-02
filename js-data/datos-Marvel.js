@@ -60,7 +60,7 @@ let Marvel   = [
         Precio: "Q193.20",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "uhttps://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Ship%20Drax.jpg",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Ship%20Drax.jpg",
         existencia: true
     },
     {
@@ -113,7 +113,7 @@ const contenedorProductos = document.getElementById('cajasmarvel');
         divProducto.appendChild(imagen);
 
         const btnMostrar = document.createElement('button');
-        btnMostrar.textContent = 'Mostrar en grande';
+        btnMostrar.textContent = 'Ver Producto';
         btnMostrar.addEventListener('click', () => mostrarEnGrande(producto));
         divProducto.appendChild(btnMostrar);
 

@@ -118,6 +118,9 @@ button{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{
 .texto-modal p {
     margin-bottom: 10px;
 }
+
+
+
 /***********************************************/
 @media only screen and (max-width: 1280px){
     .cajasDC{
