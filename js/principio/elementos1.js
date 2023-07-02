@@ -11,8 +11,6 @@ function arriba(){
               <li><a href='./index2.html'>DC</a></li>
               <li><a href='./index3.html'>Marvel</a></li>
               <li><a href='./index4.html'>Disney</a></li>
-              <li><a href=''>Ofertas</a></li>
-              <li><a href='/indexcarrito.html'>Carrito</a></li>
             </ul>
           </li>
           <li><a href='#pie'>About</a></li>

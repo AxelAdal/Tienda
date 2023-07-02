@@ -37,10 +37,11 @@
     .titulo{
         font-size: 8rem;
         margin-top: 4rem;
-        margin-left: 6rem;
+        margin-left: 8rem;
     }
   .pato{
     margin-top: 2.5rem;
+    margin-left: 1rem;
   }
   .cabeza{
     padding: 0;
