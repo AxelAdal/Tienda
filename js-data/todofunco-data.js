@@ -4,7 +4,7 @@ let todofunco   = [
         Precio: "Q159.90",
         descripcion: "Figuras Coleccionables ",
         franquicia: "DC",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Peacemaker%20Eagly.png",
         existencia: true
     },
     {
@@ -12,7 +12,7 @@ let todofunco   = [
         Precio: "Q169.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/League%20Starfire.jpg",
         existencia: true
     },
     {
@@ -20,7 +20,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Bane%20Glow.jpg",
         existencia: true
     },
     {
@@ -28,7 +28,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Coleccionables y Juguetes",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Cyclone.jpg",
         existencia: true
     },
     {
@@ -36,7 +36,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Wonder%20Woman%20Flaspoint.jpeg",
         existencia: true
     },
     {
@@ -44,7 +44,7 @@ let todofunco   = [
         Precio: "Q107.46",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Orchid.jpg",
         existencia: true
     },
     {
@@ -52,7 +52,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Wonder%20Woman%20Flaspoint.jpeg",
         existencia: true
     },
     {
@@ -60,7 +60,7 @@ let todofunco   = [
         Precio: "Q102.18",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Harley%20Quinn.jpg",
         existencia: true
     },
     {
@@ -68,7 +68,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Batman.jpg",
         existencia: true
     },
     {
@@ -76,7 +76,7 @@ let todofunco   = [
         Precio: "Q114.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Superman.jpg",
         existencia: true
     },
 
@@ -84,11 +84,11 @@ let todofunco   = [
     //Parte de Disney
 
     {
-        nombre: "Funko Pop Disney: Merida Collectible Vinyl Figure",
+        nombre: "Funko Pop Disney: Blanca Nieves Collectible Figure",
         Precio: "Q289.00",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/BlancaN.jpg",
         existencia: true
     },
     {
@@ -96,7 +96,7 @@ let todofunco   = [
         Precio: "Q239.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/Merida.jpg",
         existencia: true
     },
     {
@@ -104,7 +104,7 @@ let todofunco   = [
         Precio: "Q219.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/Mickeycar.jpg",
         existencia: true
     },
     {
@@ -112,7 +112,7 @@ let todofunco   = [
         Precio: "Q189.90",
         Franquicia: "Disney",
         descripcion: "Coleccionables y Juguetes",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/mickey50ani.jpg",
         existencia: true
     },
     {
@@ -120,7 +120,7 @@ let todofunco   = [
         Precio: "Q189.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/Pluto.jpg",
         existencia: true
     },
     {
@@ -128,7 +128,7 @@ let todofunco   = [
         Precio: "Q179.46",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/aurora.jpg",
         existencia: true
     },
     {
@@ -136,7 +136,7 @@ let todofunco   = [
         Precio: "Q309.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/boo.jpg",
         existencia: true
     },
     {
@@ -144,7 +144,7 @@ let todofunco   = [
         Precio: "Q419.18",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/Malefica.jpg",
         existencia: true
     },
     {
@@ -152,7 +152,7 @@ let todofunco   = [
         Precio: "Q339.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/Oswald%20The%20Lucky%20Rabbit.jpg",
         existencia: true
     },
     {
@@ -160,7 +160,7 @@ let todofunco   = [
         Precio: "Q209.90",
         Franquicia: "Disney",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-disney/dumbo.jpg",
         existencia: true
     },
 
@@ -172,7 +172,7 @@ let todofunco   = [
         Precio: "Q200.00",
         Franquicia:"Marvel",
         descripcion: "Funko Pop Spiderman No Way Home Sin Mascara",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/spider-man-No-way-1.png",
         existencia: true
     },
     {
@@ -180,7 +180,7 @@ let todofunco   = [
         Precio: "Q189.90",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/zolavision.jpg",
         existencia: true
     },
     {
@@ -188,7 +188,7 @@ let todofunco   = [
         Precio: "Q314.65",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Infinity%20Killmonger.jpg",
         existencia: true
     },
     {
@@ -196,7 +196,7 @@ let todofunco   = [
         Precio: "Q479.90",
         Franquicia:"Marvel",
         descripcion: "Coleccionables y Juguetes",
-        img: "",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Spiderman%20Traje%20Negro%20Y%20Dorado%20%23921.jpg",
         existencia: true
     },
     {
@@ -204,7 +204,7 @@ let todofunco   = [
         Precio: "Q329.90",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Star%20Lord.jpg",
         existencia: true
     },
     {
@@ -212,7 +212,7 @@ let todofunco   = [
         Precio: "Q149.90",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Thunder%20Gorr%20%231043.jpg",
         existencia: true
     },
     {
@@ -220,7 +220,7 @@ let todofunco   = [
         Precio: "Q169.90",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Poison%20Spiderman.jpg",
         existencia: true
     },
     {
@@ -228,7 +228,7 @@ let todofunco   = [
         Precio: "Q193.20",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "uhttps://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Ship%20Drax.jpg",
         existencia: true
     },
     {
@@ -236,7 +236,15 @@ let todofunco   = [
         Precio: "Q159.90",
         Franquicia:"Marvel",
         descripcion: "Figuras Coleccionables",
-        img: "url",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/Captain%20Carter.jpg",
+        existencia: true
+    },
+    {
+        nombre: "Figura De Accion Funko POP #971 What If? Queen General Romanda",
+        Precio: "Q159.90",
+        Franquicia:"Marvel",
+        descripcion: "Figuras Coleccionables",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-marvel/S3-%20POP%204.jpg",
         existencia: true
     }
     
