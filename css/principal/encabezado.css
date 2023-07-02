@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 800px){
     #header{
-        padding: 5px;
+        padding: 1px;
     }
 
     .cabeza{
@@ -61,3 +61,5 @@
         margin-left: 3rem;
     }
 }
+  
+  

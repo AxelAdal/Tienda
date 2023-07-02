@@ -22,7 +22,9 @@ function arriba(){
 
       <img class="pato" src="./img/img-rellenos/XOsX.gif" alt="">
 
-      <input type="text" autocomplete="off" name="text" class="input" placeholder="Busqueda">
+      <input type="text" id="searchInput" name="text" class="input" placeholder="Buscando...">
+      <div id="results"></div>
+
     </div>`;
 
   let hasta_arriba = document.getElementById("header");

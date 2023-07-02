@@ -1,25 +1,52 @@
-.input {
-    width: 25%;
-    height: 1rem;
-    border: none;
-    outline: none;
-    font-size: 2rem;
-    border-radius: 15px;
-    padding: 2rem;
-    box-sizing: border-box;
-    background-color: #ccc;
-    margin-top: 4.5rem;
-    margin-left: 4rem;
-    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-    transition: 300ms ease-in-out;
-  }
+#searchInput {    
+  width: 25%;
+  height: 1rem;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  border-radius: 15px;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #ccc;
+  margin-top: 4.5rem;
+  margin-left: 4rem;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
   
-  .input:focus {
+  #searchInput:focus {
     background-color: white;
     transform: scale(1.05);
     box-shadow: 13px 13px 100px #969696,
                -13px -13px 100px #ffffff;
   }
+  /*Diseño de los resultados del js*/  
+  #results {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .figura {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .figura img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .figura h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .figura p {
+    margin: 5px 0;
+}
 
 @media only screen and (max-width: 1280px){
     .input{
