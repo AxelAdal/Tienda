@@ -241,6 +241,7 @@ let todofunco   = [
     }
     
 ]
+// Obtener elementos del DOM
 const searchInput = document.getElementById('searchInput');
 const resultsContainer = document.getElementById('results');
 
@@ -248,6 +249,13 @@ const resultsContainer = document.getElementById('results');
 function searchFiguras() {
   // Obtener el valor del input de búsqueda
   const searchTerm = searchInput.value.toLowerCase();
+
+  // Verificar si el término de búsqueda está vacío
+  if (searchTerm.trim() === '') {
+    // Limpiar el contenedor de resultados
+    resultsContainer.innerHTML = '';
+    return;
+  }
 
   // Filtrar la matriz basada en el término de búsqueda
   const filteredFiguras = todofunco.filter(figura =>
