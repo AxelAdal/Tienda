@@ -36,7 +36,7 @@ let todofunco   = [
         Precio: "Q159.90",
         franquicia: "DC",
         descripcion: "Figuras Coleccionables",
-        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/Wonder%20Woman%20Flaspoint.jpeg",
+        img: "https://raw.githubusercontent.com/AxelAdal/Tienda/main/img/img-DC/peacemaker.jpg",
         existencia: true
     },
     {
