@@ -322,13 +322,15 @@ function displayResults(figuras) {
         <p>Precio: ${figura.Precio}</p>
       `;
 
-      const button = document.createElement('button');
-      button.textContent = 'Ver detalles';
-      button.addEventListener('click', function() {
-        // Cambiar el enlace a la URL deseada para cada figura
-        const enlace = figura.enlace; // Reemplaza con el enlace correspondiente a la figura
+     
+        const button = document.createElement('button');
+        button.textContent = 'Ver detalles';
+        button.classList.add('resultados_btn');
+        button.addEventListener('click', function() {
+      
+        const enlace = figura.enlace; 
 
-        // Redirigir a la URL especificada
+       
         window.location.href = enlace;
       });
 

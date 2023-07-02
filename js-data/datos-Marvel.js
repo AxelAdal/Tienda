@@ -117,6 +117,8 @@ const contenedorProductos = document.getElementById('cajasmarvel');
       btnMostrar.textContent = 'Ver Producto';
       btnMostrar.addEventListener('click', () => mostrarEnGrande(producto));
       divProducto.appendChild(btnMostrar);
+
+      btnMostrar.classList.add('btn');
     
       contenedorProductos.appendChild(divProducto);
     });

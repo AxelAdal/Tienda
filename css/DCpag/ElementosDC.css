@@ -50,7 +50,7 @@
     max-width: 50%;
     height: auto;
 }
-button {
+.btn{
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -61,14 +61,13 @@ button {
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     border: none;
     cursor: pointer;
-    letter-spacing: 0.05em;
     border-radius: 16px;
 
     margin-left: 15rem;
     margin-top: 0.5rem;
 }
 
-button{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
+.btn{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
 /****************************************************/
 .modal {
     position: fixed;
@@ -130,7 +129,7 @@ button{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{
         width: 90%;
     }
 
-    button {
+    .btn {
         margin-left: 20rem;
         margin-top: 0.5rem;
     }
@@ -166,7 +165,7 @@ button{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{
     .imagen {
         max-width: 100%;
     }
-    button {    
+    .btn {    
         margin-left: 0.5rem;
         margin-top: 1rem;
         height: 1rem;

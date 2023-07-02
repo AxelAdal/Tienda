@@ -117,8 +117,12 @@ let coleDC = [
       btnMostrar.textContent = 'Ver Producto';
       btnMostrar.addEventListener('click', () => mostrarEnGrande(producto));
       divProducto.appendChild(btnMostrar);
+
+      btnMostrar.classList.add('btn');
     
       contenedorProductos.appendChild(divProducto);
+
+      
     });
     
     function mostrarEnGrande(producto) {
