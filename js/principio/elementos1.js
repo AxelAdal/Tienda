@@ -33,3 +33,14 @@ function arriba(){
 }
 
 arriba();
+/*<button class="btn" type="button">
+      <strong>Carrito</strong>
+      <div id="container-stars">
+        <div id="stars"></div>
+      </div>
+    
+      <div id="glow">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </button> */

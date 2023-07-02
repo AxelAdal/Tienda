@@ -53,14 +53,21 @@
 }
 
 @media only screen and (max-width: 1280px){
-    .input{
-     margin-left: 2rem;
+  #searchInput{
+     margin-left: auto;
      margin-top: 6rem;
+     margin-right: 2rem;
     }
 }
 
 @media only screen and (max-width: 800px){
-    .input{
-       display: none;
+    #searchInput{
+       position: absolute;
+       margin-left: 9rem;
+       margin-top: 5.5rem;
+
+       width: 15rem;
+       font-size: 1.5rem;
+       padding: 10px;
     }
 }
