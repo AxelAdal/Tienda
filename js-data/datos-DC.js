@@ -113,16 +113,9 @@ let coleDC = [
       imagen.src = producto.img;
       divProducto.appendChild(imagen);
     
-      const btnMostrar = document.createElement('button');
-      btnMostrar.textContent = 'Ver Producto';
-      btnMostrar.addEventListener('click', () => mostrarEnGrande(producto));
-      divProducto.appendChild(btnMostrar);
-
-      btnMostrar.classList.add('btn');
+      divProducto.addEventListener('click', () => mostrarEnGrande(producto));
     
       contenedorProductos.appendChild(divProducto);
-
-      
     });
     
     function mostrarEnGrande(producto) {

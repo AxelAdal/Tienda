@@ -50,24 +50,6 @@
     max-width: 50%;
     height: auto;
 }
-.btn{
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 17px;
-    padding: 0.8em 1.3em 0.8em 0.9em;
-    color: white;
-    background: #ad5389;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    border: none;
-    cursor: pointer;
-    border-radius: 16px;
-
-    margin-left: 15rem;
-    margin-top: 0.5rem;
-}
-
-.btn{animation:shake-horizontal 0.8s linear both} @keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px)}}
 /****************************************************/
 .modal {
     position: fixed;
@@ -128,12 +110,6 @@
     .producto {
         width: 90%;
     }
-
-    .btn {
-        margin-left: 20rem;
-        margin-top: 0.5rem;
-    }
-
 /************************************************/
 .modal-contenido {
     max-width: 550px;
@@ -165,12 +141,6 @@
     .imagen {
         max-width: 100%;
     }
-    .btn {    
-        margin-left: 0.5rem;
-        margin-top: 1rem;
-        height: 1rem;
-    }
-  
 /*************************************************************/
 
 .modal-contenido {

@@ -81,74 +81,69 @@ let Marvel = [
     }
 ]
 const contenedorProductos = document.getElementById('cajasmarvel');
-    contenedorProductos.classList.add('cajasmarvel');
-    
-    Marvel.forEach((producto, index) => {
-      const divProducto = document.createElement('div');
-      divProducto.classList.add('producto');
-      divProducto.id = 'producto-' + index; // Asignar un ID único basado en el índice
-    
-      const divNombre = document.createElement('div');
-      divNombre.classList.add('nombre');
-      divNombre.textContent = producto.nombre;
-      divProducto.appendChild(divNombre);
-    
-      const divPrecio = document.createElement('div');
-      divPrecio.classList.add('precio');
-      divPrecio.textContent = 'Precio: ' + producto.Precio;
-      divProducto.appendChild(divPrecio);
-    
-      const divDescripcion = document.createElement('div');
-      divDescripcion.classList.add('descripcion');
-      divDescripcion.textContent = producto.descripcion;
-      divProducto.appendChild(divDescripcion);
-    
-      const divFranquicia = document.createElement('div');
-      divFranquicia.classList.add('franquicia');
-      divFranquicia.textContent = 'Franquicia: ' + producto.franquicia;
-      divProducto.appendChild(divFranquicia);
-    
-      const imagen = document.createElement('img');
-      imagen.classList.add('imagen');
-      imagen.src = producto.img;
-      divProducto.appendChild(imagen);
-    
-      const btnMostrar = document.createElement('button');
-      btnMostrar.textContent = 'Ver Producto';
-      btnMostrar.addEventListener('click', () => mostrarEnGrande(producto));
-      divProducto.appendChild(btnMostrar);
+contenedorProductos.classList.add('cajasmarvel');
 
-      btnMostrar.classList.add('btn');
-    
-      contenedorProductos.appendChild(divProducto);
-    });
-    
-    function mostrarEnGrande(producto) {
-      const contenedorModal = document.createElement('div');
-      contenedorModal.classList.add('modal');
-    
-      const modalContenido = document.createElement('div');
-      modalContenido.classList.add('modal-contenido');
-    
-      const imagenModal = document.createElement('img');
-      imagenModal.classList.add('imagen-modal');
-      imagenModal.src = producto.img;
-      modalContenido.appendChild(imagenModal);
-    
-      const textoModal = document.createElement('div');
-      textoModal.classList.add('texto-modal');
-      textoModal.innerHTML = `
-        <h2>${producto.nombre}</h2>
-        <p><strong>Precio:</strong> ${producto.Precio}</p>
-        <p><strong>Descripción:</strong> ${producto.descripcion}</p>
-        <p><strong>Franquicia:</strong> ${producto.franquicia}</p>
-      `;
-      modalContenido.appendChild(textoModal);
-    
-      contenedorModal.appendChild(modalContenido);
-      document.body.appendChild(contenedorModal);
-    
-      contenedorModal.addEventListener('click', () => {
-        contenedorModal.remove();
-      });
-    }
+Marvel.forEach((producto, index) => {
+  const divProducto = document.createElement('div');
+  divProducto.classList.add('producto');
+  divProducto.id = 'producto-' + index; // Asignar un ID único basado en el índice
+
+  const divNombre = document.createElement('div');
+  divNombre.classList.add('nombre');
+  divNombre.textContent = producto.nombre;
+  divProducto.appendChild(divNombre);
+
+  const divPrecio = document.createElement('div');
+  divPrecio.classList.add('precio');
+  divPrecio.textContent = 'Precio: ' + producto.Precio;
+  divProducto.appendChild(divPrecio);
+
+  const divDescripcion = document.createElement('div');
+  divDescripcion.classList.add('descripcion');
+  divDescripcion.textContent = producto.descripcion;
+  divProducto.appendChild(divDescripcion);
+
+  const divFranquicia = document.createElement('div');
+  divFranquicia.classList.add('franquicia');
+  divFranquicia.textContent = 'Franquicia: ' + producto.franquicia;
+  divProducto.appendChild(divFranquicia);
+
+  const imagen = document.createElement('img');
+  imagen.classList.add('imagen');
+  imagen.src = producto.img;
+  divProducto.appendChild(imagen);
+
+  divProducto.addEventListener('click', () => mostrarEnGrande(producto));
+
+  contenedorProductos.appendChild(divProducto);
+});
+
+function mostrarEnGrande(producto) {
+  const contenedorModal = document.createElement('div');
+  contenedorModal.classList.add('modal');
+
+  const modalContenido = document.createElement('div');
+  modalContenido.classList.add('modal-contenido');
+
+  const imagenModal = document.createElement('img');
+  imagenModal.classList.add('imagen-modal');
+  imagenModal.src = producto.img;
+  modalContenido.appendChild(imagenModal);
+
+  const textoModal = document.createElement('div');
+  textoModal.classList.add('texto-modal');
+  textoModal.innerHTML = `
+    <h2>${producto.nombre}</h2>
+    <p><strong>Precio:</strong> ${producto.Precio}</p>
+    <p><strong>Descripción:</strong> ${producto.descripcion}</p>
+    <p><strong>Franquicia:</strong> ${producto.franquicia}</p>
+  `;
+  modalContenido.appendChild(textoModal);
+
+  contenedorModal.appendChild(modalContenido);
+  document.body.appendChild(contenedorModal);
+
+  contenedorModal.addEventListener('click', () => {
+    contenedorModal.remove();
+  });
+}
