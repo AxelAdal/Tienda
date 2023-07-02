@@ -4,7 +4,7 @@
 }
 .cabeza{
     width: 100%;
-    background-color: blueviolet;
+    background-color: #F9C22E;
     padding: 5px;
     box-sizing: border-box;
 
@@ -14,7 +14,7 @@
 .titulo{
     margin-left:5rem ;
         font-size: 5rem;
-        color: #ff3c00;
+        color: #FF570A;
         margin-top: 4rem;
         font-family: 'Press Start 2P', cursive;
 }
@@ -27,9 +27,13 @@
     .titulo{
         font-size: 8rem;
         margin-top: 4rem;
+        margin-left: 6rem;
     }
-  img{
-    margin-top: 4rem;
+  .pato{
+    margin-top: 2.5rem;
+  }
+  .cabeza{
+    padding: 0;
   }
 }
 
