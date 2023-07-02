@@ -13,18 +13,23 @@
   box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
   transition: 300ms ease-in-out;
 }
-  
-  #searchInput:focus {
+
+#searchInput:focus {
     background-color: white;
     transform: scale(1.05);
     box-shadow: 13px 13px 100px #969696,
                -13px -13px 100px #ffffff;
-  }
+}
+
   /*Diseño de los resultados del js*/  
   #results {
-    max-width: 600px;
-    margin: 0 auto;
+    background-color: red;
+    max-width: 400px;
     padding: 20px;
+
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 70%;
   }
   
   .figura {
