@@ -23,13 +23,12 @@
 
   /*Diseño de los resultados del js*/  
   #results {
-    background-color: red;
     max-width: 400px;
     padding: 20px;
 
     position: absolute;
     margin-top: 20rem;
-    margin-left: 70%;
+    margin-left: 68%;
   }
   
   .figura {

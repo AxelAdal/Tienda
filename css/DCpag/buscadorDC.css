@@ -1,0 +1,15 @@
+.search-container1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .search-input1 {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .results-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
