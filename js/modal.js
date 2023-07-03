@@ -24,7 +24,6 @@ function mostrarEnGrande(producto) {
         <h2>${producto.nombre}</h2>
         <p><strong>Precio:</strong> ${producto.Precio}</p>
         <p><strong>Descripción:</strong> ${producto.descripcion}</p>
-        <p><strong>Franquicia:</strong> ${producto.franquicia}</p>
     `;
     modalContenido.appendChild(textoModal);
 

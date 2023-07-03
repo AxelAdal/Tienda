@@ -11,12 +11,13 @@ var paddleAUp = false;
 var paddleADown = false;
 var paddleBUp = false;
 var paddleBDown = false;
-//Velocidad
-var ballSpeedX = 5;
-var ballSpeedY = 5;
+// Velocidad
+var ballSpeedX = 6;
+var ballSpeedY = 6;
 var ballPosX = gameWidth / 2 - ball.offsetWidth / 2;
 var ballPosY = gameHeight / 2 - ball.offsetHeight / 2;
 var interval;
+var elapsedTime = 0; // Tiempo transcurrido en milisegundos
 
 // Actualizar posición de los elementos en el juego
 function updateGame() {
@@ -60,9 +61,7 @@ function updateGame() {
   }
 }
 
-
 function resetGame() {
-
   ballPosX = gameWidth / 2 - ball.offsetWidth / 2;
   ballPosY = gameHeight / 2 - ball.offsetHeight / 2;
   ball.style.left = ballPosX + 'px';
@@ -72,6 +71,7 @@ function resetGame() {
   ballSpeedX = Math.random() > 0.5 ? 3 : -3;
   ballSpeedY = Math.random() > 0.5 ? 3 : -3;
 
+  elapsedTime = 0; // Reiniciar el tiempo transcurrido
 
   setTimeout(startGame, 2000);
 }
@@ -89,10 +89,10 @@ document.addEventListener('keydown', function(event) {
   if (event.key === 's') {
     paddleADown = true;
   }
-  if (event.key === 'ArrowUp') {
+  if (event.key === 'o') {
     paddleBUp = true;
   }
-  if (event.key === 'ArrowDown') {
+  if (event.key === 'k') {
     paddleBDown = true;
   }
 });
@@ -104,13 +104,12 @@ document.addEventListener('keyup', function(event) {
   if (event.key === 's') {
     paddleADown = false;
   }
-  if (event.key === 'ArrowUp') {
+  if (event.key === 'o') {
     paddleBUp = false;
   }
-  if (event.key === 'ArrowDown') {
+  if (event.key === 'k') {
     paddleBDown = false;
   }
 });
-
 
 startGame();

@@ -32,7 +32,10 @@
     background-color: #fff;
   }
   @media only screen and (max-width: 1280px){
-        #game{
-          display: none;
-        }
+
   }
+  @media only screen and (max-width: 800px){
+    #game{
+      display: none;
+    }
+  } 

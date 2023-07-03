@@ -103,11 +103,6 @@ Marvel.forEach((producto, index) => {
   divDescripcion.textContent = producto.descripcion;
   divProducto.appendChild(divDescripcion);
 
-  const divFranquicia = document.createElement('div');
-  divFranquicia.classList.add('franquicia');
-  divFranquicia.textContent = 'Franquicia: ' + producto.franquicia;
-  divProducto.appendChild(divFranquicia);
-
   const imagen = document.createElement('img');
   imagen.classList.add('imagen');
   imagen.src = producto.img;
