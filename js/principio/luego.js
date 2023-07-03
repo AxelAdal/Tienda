@@ -7,7 +7,7 @@ function bienvenida(){
         <img src="./img/img-rellenos/orejon-removebg-preview.png" alt="">
       </div>
       <div class="textointo">
-        <h1>¡Colecciona a lo Grande</h1>
+        <h1>¡Colecciona a lo Grande!</h1>
         <h4>
             En sus marcas, listos… ¡a coleccionar!<br>
             <br>
