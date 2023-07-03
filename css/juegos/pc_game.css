@@ -1,0 +1,38 @@
+#game {
+    width: 55%;
+    height: 400px;
+    position: relative;
+    background-color: #000;
+    
+    display: grid;
+    place-items: center;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  
+  #paddleA, #paddleB {
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    background-color: #efff14;
+  }
+  
+  #paddleA {
+    left: 10px;
+  }
+  
+  #paddleB {
+    right: 10px;
+  }
+  
+  #ball {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #fff;
+  }
+  @media only screen and (max-width: 1280px){
+        #game{
+          display: none;
+        }
+  }

@@ -1,0 +1,146 @@
+.button1 {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 5rem;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid black;
+    background-color: white;
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+   }
+   
+   .button1::before {
+    content: 'Home';
+    /*Button's value/text-content */
+    position: absolute;
+    top: -14%;
+    left: 7%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+   }
+   
+   .button1:hover::before {
+    top: 0;
+    left: 0;
+   }
+/***********************/
+.button2 {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid black;
+    background-color: white;
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+   }
+   
+   .button2::before {
+    content: 'GitHub';
+    /*Button's value/text-content */
+    position: absolute;
+    top: -14%;
+    left: 7%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+   }
+   
+   .button2:hover::before {
+    top: 0;
+    left: 0;
+   }
+/*///////////////////////////*/
+.button3 {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid black;
+    background-color: white;
+    color: white;
+    position: relative;
+    letter-spacing: 1px;
+   }
+   
+   .button3::before {
+    content: 'Insta ';
+    /*Button's value/text-content */
+    position: absolute;
+    top: -14%;
+    left: 7%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s ease-in-out;
+    font-weight: bold;
+   }
+   
+   .button3:hover::before {
+    top: 0;
+    left: 0;
+   }
+/************************************************/
+@media only screen and (max-width: 1280px){
+    .button1{
+        margin-left: 5rem;
+        width: 10rem;
+    }
+    .button2{
+        margin-left: 0.5rem;
+        margin-left: 2rem;
+        width: 10rem;
+    }
+    .button3{
+        margin-left: 0.5rem;
+        margin-left: 2rem;
+        width: 10rem;
+    }
+}
+@media only screen and (max-width: 800px){
+    .button1{
+        margin-left: -6rem;
+        width: 6rem;
+        height: 2rem;
+    }
+    .button2{
+        margin-left: -1.5rem;
+        width: 6rem;
+        height: 2rem;
+    }
+    .button3{
+        margin-left: -1.5rem;
+        width: 6rem;
+        height: 2rem;
+    }
+}
